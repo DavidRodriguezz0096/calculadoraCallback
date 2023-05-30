@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    background-color:aliceblue;
+} 
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 0 auto;
+}
+
+.body-calculadora {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid lightskyblue;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 0 auto;
+    text-align: center;
+    
+}
+
+.op-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.s-button {
+    padding: 10px 20px;
+    background-color: lightsteelblue;
+    color: black;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.s-button:hover {
+    background-color: lightsalmon;
+}
+
+#resultado {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid lightskyblue;
+    border-radius: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid lightgrey;
+}
