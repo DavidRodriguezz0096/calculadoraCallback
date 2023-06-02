@@ -1,3 +1,27 @@
+document.addEventListener('DOMContentLoaded', function() {
+    let sumarBtn = document.getElementById('calc(sumarNum)');
+    let restarBtn = document.getElementById('calc(restarNum)');
+    let multiplicarBtn = document.getElementById('calc(multiplicarNum)');
+    let dividirBtn = document.getElementById('calc(divisionNum)');
+    let borrarBtn = document.getElementById('calc(borrarValores())');
+
+    sumarBtn.addEventListener('click', function() {
+        calc(sumarNum);
+    });
+    restarBtn.addEventListener('click', function() {
+        calc(restarNum);
+    });
+    multiplicarBtn.addEventListener('click', function() {
+        calc(multiplicarNum);
+    });
+    dividirBtn.addEventListener('click', function() {
+        calc(divisionNum);
+    });
+    borrarBtn.addEventListener('click', function() {
+        calc(borrarValores());
+    });
+});
+
 function calc(callback) {
     let num1 = parseFloat(document.getElementById("numero1").value);
     let num2 = parseFloat(document.getElementById("numero2").value);
